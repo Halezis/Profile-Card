@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+    <link rel="stylesheet" href="style.css">
+    <title>Halezis' Profile</title>
+</head>
+
+<body>
+    <main>
+        <div class="profile-img">
+            <img class="profile-picture" src="Images/Halezis.jpg" alt="Halezis" data-testid="profilePicture">
+        </div>
+        <div class="profile-details">
+            <h1 class="full-name" data-testid="fullName">Ukwueze Harrison</h1>
+            <h2 class="job-title" data-testid="jobTitle">Frontend Developer</h2>
+            <div class="short-bio" data-testid="shortBio">
+                Halezis is a Frontend Developer with over three years of experience, specializing in React.js and Tailwind CSS. With a strong foundation in web technologies, Halezis is also proficient in HTML, CSS, JavaScript, Python, C, Arduino, Git, amongst others.
+            </div>
+
+        </div>
+
+        <div class="profile-socials">
+            <a href="https://www.linkedin.com/in/ukwueze-harrison-chukwuebuka-a46472230/" data-testid="socialLinks" target="_blank">
+                <i class="fab fa-linkedin" aria-hidden="true"></i>
+            </a>
+            <a href="https://github.com/Halezis" data-testid="socialLinks" target="_blank">
+                <i class="fab fa-github" aria-hidden="true"></i>
+            </a>
+            <a href="https://x.com/Halezis_Great" data-testid="socialLinks" target="_blank">
+                <i class="fab fa-twitter" aria-hidden="true"></i>
+            </a>
+        </div>
+
+        <div class="current-time-utc" id="current-time-utc" data-testid="currentTimeUTC">9:22, Jan 30, 2025.</div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
